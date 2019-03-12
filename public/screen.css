@@ -26,6 +26,12 @@ body {
   table-layout: fixed;
   width: 200px;
 }
-.calc-btn-operand {
-  background-color: orange;
+.column {
+  display: table-cell;
+}
+#zero {
+  width: 98.666666667px;
+}
+#clear {
+  width: 98.666666667px;
 }
