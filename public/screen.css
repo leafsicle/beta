@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
+
 :root {
   font: 16px / 1 sans-serif;
 }
-
-html {
-  height: 100%;
-}
-
 body {
-  margin: 0;
-  min-height: 100%;
+  font-family: 'roboto', sans-serif;
+}
+.calc-btn {
+  background-color: silver;
+  color: black;
+  width: 25px;
+  height: 45px;
+  border: 1px solid grey;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 100;
+  padding-top: 3px;
+}
+.calc-btn:hover {
+  background-color: orange;
+}
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+}
+.calc-btn-operand {
+  background-color: orange;
 }
