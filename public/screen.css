@@ -31,6 +31,7 @@ body {
 }
 #zero {
   width: 98.666666667px;
+  border-radius: 0 0 0 7px;
 }
 #clear {
   width: 98.666666667px;
@@ -50,5 +51,15 @@ body {
   border-radius: 7px 7px 0 0;
 }
 .calc-btn-operand {
-
+  background-color: orange;
+  color: white;
+}
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.equal {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 0 0 7px 0;
 }
