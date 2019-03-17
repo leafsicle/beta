@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:100i'); */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
 
 body {
   font-family: 'roboto', sans-serif;
@@ -28,13 +27,13 @@ body {
   display: table-cell;
 }
 #zero {
-  width: 50px;
-  border-radius: 0 0 0 7px;
+  width: 52.666666667px;
+  border-bottom-left-radius: 7px;
 }
 #clear {
-  width: 98.666666667px;
+  width: 52.666666667px;
 }
-.cal-display-val {
+#calc-display-val {
   height: 80px;
   color: white;
   text-align: right;
@@ -56,8 +55,8 @@ h3 {
   text-align: center;
   margin-top: 50px;
 }
-.equal {
+#equal {
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
-  border-radius: 0 0 7px 0;
+  border-bottom-right-radius: 7px;
 }
