@@ -43,17 +43,33 @@
       </div>
     </div>
     <script src="/main.js" charset="utf-8">
-    let oneBtn = document.getElementById('one')
-    let oneBtn = document.getElementById('two')
-    let oneBtn = document.getElementById('three')
-    let oneBtn = document.getElementById('four')
-    let oneBtn = document.getElementById('five')
-    let oneBtn = document.getElementById('six')
-    let oneBtn = document.getElementById('seven')
-    let oneBtn = document.getElementById('eight')
-    let oneBtn = document.getElementById('nine')
-    let oneBtn = document.getElementById('zero')
-    
+
+      let oneBtn = document.getElementById('one')
+      let twoBtn = document.getElementById('two')
+      let threeBtn = document.getElementById('three')
+      let fourBtn = document.getElementById('four')
+      let fiveBtn = document.getElementById('five')
+      let sixBtn = document.getElementById('six')
+      let sevenBtn = document.getElementById('seven')
+      let eightBtn = document.getElementById('eight')
+      let nineBtn = document.getElementById('nine')
+      let zeroBtn = document.getElementById('zero')
+      
+      let decimalBtn = document.getElementById('dot')
+      let clearBtn = document.getElementById('clear')
+      let backspaceBtn = document.getElementById('backspace')
+      let displayValElement = document.getElementById('calc-display-val')
+
+      let calcNumBtns = document.getElementsByClassName('calc-btn-num')
+      let calcOpsBtns = document.getElementsByClassName('calc-btn-operator')
+
+      for (let i =0; i < calcNumBtns.length; i++) {
+        calcNumBtns[i].addEventListener('click', updateDisplay )
+      }
+      for (let i =0; i < calcOpsBtns.length; i++) {
+
+      }
+
     </script>
   </body>
 </html>
